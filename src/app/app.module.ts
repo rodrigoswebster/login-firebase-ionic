@@ -26,7 +26,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AlgularFireAuth
+    AngularFireAuth
   ]
 })
 export class AppModule {}
